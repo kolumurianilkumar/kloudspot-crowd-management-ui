@@ -1,0 +1,103 @@
+
+.navbar {
+  height: 140px; 
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar-inner {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-separator {
+  color: #999;
+}
+
+
+.location-dropdown {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.location-icon {
+  flex-shrink: 0;
+}
+
+.location-text {
+  font-weight: 500;
+}
+
+.chevron {
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.lang-pill {
+  background: #eaf4f3;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+
+.bell {
+  position: relative;
+}
+
+.bell .dot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+}
+
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+
+.navbar.navbar--compact {
+  height: 68px; 
+}
+
+.navbar.navbar--compact .navbar-inner {
+  align-items: center;
+}

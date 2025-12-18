@@ -1,0 +1,71 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background: linear-gradient(180deg, #0b4f4a, #083b37);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TOP HEADER */
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 22px 12px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* MENU ICON */
+.menu-icon {
+  font-size: 20px;
+}
+
+/* NAV */
+.sidebar-nav {
+  margin-top: 20px;
+}
+
+/* NAV ITEM */
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 22px;
+  color: #e6f2f1;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* ACTIVE STATE — NO MARGIN CHANGES */
+.nav-item.active {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ICON */
+.nav-item svg {
+  flex-shrink: 0;
+}
+
+/* TEXT */
+.nav-item span {
+  white-space: nowrap;
+}
+
+/* FOOTER */
+.sidebar-footer {
+  margin-top: auto;
+  padding: 18px 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  opacity: 0.85;
+  cursor: pointer;
+}
